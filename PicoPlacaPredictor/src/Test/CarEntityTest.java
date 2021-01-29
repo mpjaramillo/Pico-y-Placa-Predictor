@@ -1,5 +1,6 @@
 package Test;
 
+/*Using JUnit JAR to test the System*/
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +15,7 @@ import java.util.Collection;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
+/*This test is to validate if the input from the user is correct*/
 @RunWith(Parameterized.class)
 public class CarEntityTest {
     CarEntity car;
@@ -23,6 +25,7 @@ public class CarEntityTest {
     @Parameter(1)
     public int lastPlateNumber;
 
+    //Create a Collection of examples of data, validating if the last digit of the plate is correct
     @Parameters
     public static Collection<Object[]> data() {
         Object[][] data = new Object[][] { { "AAA-2233", 3 },
@@ -36,6 +39,8 @@ public class CarEntityTest {
         car = new CarEntity();
         car.setPlateNumber(plateNumber);
     }
+
+    //Testing getters and setters
 
     @Test
     public void testGetLastPlateNumber() {
