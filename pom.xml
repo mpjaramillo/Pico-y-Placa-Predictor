@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.mpjaramillo</groupId>
-    <artifactId>Pico-Placa-Predictor</artifactId>
+    <artifactId>Pico-y-Placa-Predictor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Pico-Placa-Predictor</name>
+    <name>Pico-y-Placa-Predictor</name>
 
     <dependencies>
 
@@ -40,7 +40,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>io.github.mpjaramillo.Pico-Placa-Predictor.MainApp</mainClass>
+                            <mainClass>io.github.mpjaramillo.Pico-y-Placa-Predictor.MainApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
