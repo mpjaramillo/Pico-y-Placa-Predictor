@@ -13,7 +13,7 @@ public class Predictor {
     /**
      * Checks if the Car is in Rush hour.
      *
-     * @param car Vehicle to be checked.
+     * @param car      Vehicle to be checked.
      * @param calendar DateTime to be checked.
      * @return True if the Vehicle is in 'Pico y Placa' time.
      */
@@ -56,8 +56,8 @@ public class Predictor {
      * Checks if the Vehicle is in 'Pico y Placa' time.
      *
      * @param plateNumber Plate Number to be checked.
-     * @param date Date to be checked.
-     * @param time Time to be checked.
+     * @param date        Date to be checked.
+     * @param time        Time to be checked.
      * @return True if the Vehicle is in 'Pico y Placa' time.
      * @throws IllegalArgumentException If any of the arguments is invalid.
      */
